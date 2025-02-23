@@ -1,0 +1,29 @@
+1. Dokumen root adalah ketika seseorang mengakses situs web, server web akan mencari file yang diminta di dalam folder document root. Contohnya adalah C:\xampp\htdocs\
+2. Tidak, document root pada Apache web server tidak harus selalu terletak di C:\xampp\htdocs. Lokasi document root dapat diubah sesuai kebutuhan dengan mengedit konfigurasi Apache.
+3. Git init untuk membuat repository baru.
+Git clone untuk mengunduh atau menduplikasikan repository yang sudah ada.
+Git remote untuk menghubungkan repository local dengan repository remote.
+Git add untuk menambahkan perubahan file ke staging area dan dilakukan sebelum commit.
+Git commit untuk menyimpan perubahan file dari staging area ke dalam repository lokal.
+Git push untuk mengirim commit dari repository local ke remote. Biasa digunakan setelah git commit.
+Git checkout untuk membuat branch baru dan berpindah ke branch baru.
+4. GitHub: Untuk proyek open-source, integrasi dengan komunitas, atau bekerja dengan banyak library publik.
+Gitlab: Banyak digunakan oleh perusahaan yang membutuhkan otomatisasi, ingin self hosting (kontrol penuh atas data dan sistem mereka), dan ingin keamanan tingkat lanjut. 
+5. Variable user: Diawali dengan tanda $, kemudian diawali dengan karakter [A-Za-z] atau _(underscore) dan bisa mengandung karakter/numerik dan underscore.
+<?php
+// definisikan variables
+$nama = 'Rosalie Naurah';
+$umur = 13;
+$berat = 22.4;
+echo 'Nama : ' . $nama;
+echo '<br/>Umur : ' . $umur.' Tahun';
+echo '<br/>Berat : '.$berat.' Kg';
+echo "<br/>Hello $nama Apa kabar?";
+?>
+ Variable system: Telah didefinisikan oleh system.
+<?php
+// variable system
+echo 'Dokumen Root '.$_SERVER["DOCUMENT_ROOT"];
+echo '<br/>Nama File '.$_SERVER["PHP_SELF"];
+?>
+6. Persamaan dari keduanya adalah untuk menyimpan nilai, dapat digunakan dalam program, mempunyai nama dan tipe data, dapat digunakan di berbagai lingkungan.
